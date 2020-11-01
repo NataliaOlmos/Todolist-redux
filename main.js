@@ -204,11 +204,11 @@ let rootReducer = combineReducers({
 })
 
 let store = createStore(rootReducer, {
-    numbers:["1234567"],
-    emails:["unaema@mail.com"],
+    numbers:["555999000"],
+    emails:["direcciondecorreo@mail.com"],
     todos:{
       0: {
-        text:"crear store",
+        text:"Tarea 1",
         done: true,
         id: 0
       } 

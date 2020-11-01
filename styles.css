@@ -1,18 +1,39 @@
 html,
 body {
   margin: 0;
-  background-color: #B84BFF;
+  background-color: #D1D0D5;
   color: white;
-  font-family: Avenir;
+  font-family: 'Rubik', sans-serif;
 }
+
 #root {
   display: flex;
   flex-direction: column;
 }
+
+p{
+  font-family: 'Rubik', sans-serif;
+  color: #191831;
+  text-align: center;
+}
+
 input {
   text-align: center;
   font-weight: bolder;
   font-size: 2rem;
+  font-family: 'Rubik', sans-serif;
+  color: #191831;
+}
+
+h1{
+  font-family: 'Rubik', sans-serif;
+  color: #191831;
+  justify-content: center;
+  text-align: center;
+}
+
+input :focus{
+  color: #191831
 }
 
 ul {
@@ -22,14 +43,19 @@ ul {
 
 ul li {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   justify-content: space-around;
   border: 1px solid;
   list-style: none;
   font-weight: bold;
   font-size: 1.5rem;
-  color: #5C257F;
+  color: #191831;
   cursor: pointer;
+  background-color: #5451A6;
 }
+
 li span {
   text-align: center;
   width: 400px;
@@ -37,12 +63,19 @@ li span {
 
 li span:nth-child(2) {
   opacity: 0;
+  color: #191831;
 }
 
 li:hover span:nth-child(2) {
   opacity: 1;
+  color: #191831;
 }
 
 .done {
   text-decoration: line-through;
+}
+
+footer{
+  font-family: 'Rubik', sans-serif;
+  color: #191831;
 }
